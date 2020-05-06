@@ -1,0 +1,431 @@
+/***************start global***************/
+
+*{
+    box-sizing: border-box
+}
+
+body{
+    font-family: sans-serif
+}
+
+.main-color{
+    color: #dc4e41
+}
+
+.container{
+    position: relative
+}
+
+/****************end global****************/
+
+/***************start header***************/
+
+header{
+    background: url('../img/5.jpg');
+    background-size: cover;
+    color: #fff
+}
+
+header .overlay{
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100%
+}
+
+header nav{
+    overflow: hidden;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0
+}
+
+header nav h2{
+    display: inline
+}
+
+header nav h2:last-of-type{
+    float: right;
+    margin: 0
+}
+
+header .buttons button{
+    background-color: transparent;
+    color: #fff;
+    margin: 0 10px;
+    padding: 10px 0;
+    width: 150px;
+    border: 1px solid #222;
+    border-radius: 10px;
+    transition: all .5s ease-in-out
+}
+
+header .buttons button:hover{
+    background-color: #dc4e41;
+    border: 1px solid #dc4e41;
+    color: #fff
+}
+
+header .arrow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding: 20px
+}
+
+header .arrow i{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 3px
+}
+
+/****************end header****************/
+
+/**************start features**************/
+
+.features .feature{
+    width: 24%
+}
+
+.features .feature:nth-of-type(2),
+.features .feature:nth-of-type(3){
+    margin-left: 1%;
+    margin-right: 1%
+}
+
+.features .feature .icon i{
+    border: 1px solid #ddd ;
+    border-radius: 50%;
+    font-weight: 200;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out
+}
+
+.features .feature .icon i:hover{
+    background-color: #dc4e41;
+    border: 1px solid #dc4e41 ;
+    color: #fff
+    
+}
+
+
+
+/***************end features***************/
+
+/**************start subscribe*************/
+
+.subscribe{
+    background: url('../img/3.jpg');
+    background-size: cover
+}
+
+.subscribe .over{
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 100%
+}
+
+.subscribe form input[type="email"]{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px
+}
+
+.subscribe form input[type="submit"]{
+    background-color: #dc4e41;
+    border: 1px solid #dc4e41 ;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #fff
+}
+
+.subscribe form ::-webkit-input-placeholder{
+    color:#ccc
+}
+
+/***************end subscribe**************/
+
+/***************start  works***************/
+
+.our-works .works .item{
+    width: 32%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: all .5s ease-in-out
+}
+
+.our-works .works .item:hover .over-l{
+    display: block
+}
+
+.our-works .works .item img{
+    width: 100%
+}
+
+.our-works .works .item .over-l{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(220, 78, 65, .9);
+    color: #fff;
+    display: none
+}
+
+.our-works .works .item .over-l h3{
+    margin-top: 50px
+}
+
+.our-works .works .item .over-l p{
+    font-size: 18px
+}
+
+.our-works .works .item .over-l button{
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    padding: 7px 20px;
+    cursor: pointer;
+    transition: all 1s ease-in-out
+}
+
+.our-works .works .item .over-l button:hover{
+    background-color: #fff;
+    color: #dc4e41
+}
+
+.our-works .works .item:nth-of-type(2),
+.our-works .works .item:nth-of-type(5),
+.our-works .works .item:nth-of-type(8){
+    margin-right: 2%;
+    margin-left: 2%
+}
+
+.our-works .container > button{
+    margin-top: 50px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 7px 20px;
+    cursor: pointer;
+    transition: all .5s ease-in-out
+}
+
+.our-works .container > button:hover{
+    background-color: #dc4e41;
+    border: 1px solid #dc4e41 ;
+    color: #fff
+}
+
+/****************end  works****************/
+
+/***************start testem***************/
+
+.testimonials{
+    background: url('../img/7.jpg');
+    background-size: cover;
+    color: #fff
+}
+
+.testimonials .overl{
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100%
+}
+
+.testimonials img{
+    margin: 0 auto 50px
+}
+
+.testimonials span{
+    margin-top: 30px
+}
+
+.testimonials .fa-chevron-right,
+.testimonials .fa-chevron-left{
+    position: absolute;
+    top: 50%;
+    cursor: pointer
+}
+
+.testimonials .fa-chevron-right:hover,
+.testimonials .fa-chevron-left:hover{
+    color: #dc4e41
+}
+
+.testimonials .fa-chevron-right{
+    position: absolute;
+    right: 10px
+}
+
+.testimonials .fa-chevron-left{
+    position: absolute;
+    left: 10px
+}
+
+/****************end testem****************/
+
+/***************start   team***************/
+
+.our-team .member{
+    width: 22%;
+    margin-right: 4%;
+    margin-top: 30px;
+    color: #aaa
+}
+
+.our-team .member:last-of-type{
+    margin-right: 0
+}
+
+.our-team .member:hover img{
+    filter: none;
+    filter: grayscale(0)
+}
+
+.our-team .member:hover h3{
+    color: #111
+}
+
+.our-team .member:hover .social i.fa-facebook{
+    background-color: #3d5998
+}
+
+.our-team .member:hover .social i.fa-twitter{
+    background-color: #55acee
+}
+
+.our-team .member:hover .social i.fa-google-plus{
+    background-color: #dc4e41
+}
+
+.our-team .member:hover p{
+    color: #555
+}
+
+.our-team .member img{
+    border-radius: 10px 10px 0 0;
+    filter: gray;
+    filter: grayscale(1)
+}
+
+.our-team .member .social i{
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #aaa
+}
+
+
+
+/****************end   team****************/
+
+/***************start contact**************/
+
+.contact-us{
+    background: url('../img/5.jpg');
+    background-size: cover;
+    color: #fff
+}
+
+.contact-us .ovver{
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100%
+}
+
+.contact-us form input{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    width: 285px;
+    padding: 7px;
+    display: inline-block
+}
+
+.contact-us form input[type="email"]{
+    margin-right: 10px
+}
+
+.contact-us form input[type='text']{
+    margin-left: 10px
+}
+
+.contact-us textarea{
+    margin: 22px auto;
+    width: 600px;
+    height: 180px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 7px
+}
+
+.contact-us form .info{
+    width: 600px;
+    margin: auto;
+    overflow: hidden
+}
+
+.contact-us form input[type='submit']{
+    background-color: #dc4e41;
+    border: 1px solid #dc4e41 ;
+    color: #fff;
+    width: 150px;
+    font-size: 16px;
+    cursor: pointer
+}
+
+.contact-us form .info i{
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    line-height: 30px
+}
+
+.contact-us form .info i.fa-facebook{
+    background-color: #3d5998
+}
+
+.contact-us form .info i.fa-twitter{
+    background-color: #55acee
+}
+
+.contact-us form .info i.fa-google-plus{
+    background-color: #dc4e41
+}
+
+
+
+/****************end contact***************/
+
+/***************start footer***************/
+
+footer{
+    padding: 30px;
+    background-color: #333;
+    font-size: 14px;
+    overflow: hidden;
+    color: #fff
+}
+
+/****************end footer****************/
+
+/***************start global***************/
+
+/****************end global****************/

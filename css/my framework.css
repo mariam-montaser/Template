@@ -1,0 +1,244 @@
+/**************start framework*************/
+
+.italic{
+    font-style: italic
+}
+
+.block{
+    display: block
+}
+
+.center{
+    text-align: center
+}
+
+.container{
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.padding{
+    padding-bottom: 100px;
+    padding-top: 100px
+}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg{
+    display: none
+}
+
+.float-l{
+    float: left
+}
+
+.float-r{
+    float: right
+}
+
+.clear{
+    clear: both
+}
+
+.h1{
+    font-size: 2em
+}
+
+.responsive-p{
+    line-height: 1.7;
+    font-size: 22px
+}
+
+.responsive-img{
+    width: 100%
+}
+
+.list-unstyle{
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.img-circle{
+    border-radius: 50%
+}
+
+.img-thumbnail{
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc
+}
+
+.upper{
+    text-transform: uppercase
+}
+
+.hidden{
+    display: none
+}
+    
+/***************end framework**************/
+
+@media (max-width:767px){
+    
+    .visible-xs{
+        display: block !important
+    }
+    
+    .hidden-xs{
+        display: none !important
+    }
+    
+    .responsive-p{
+        text-align: center;
+        font-size: 17px !important
+    }
+    
+    header .buttons button{
+        margin-bottom: 10px
+    }
+    
+    .features .feature{
+        width: 100% !important
+    }
+    
+    .subscribe form input{
+        display: block;
+        margin:0 auto 10px !important
+    }
+    
+    .our-works .works .item{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto 10px!important
+    }
+    
+    .our-team .member{
+        width: 100% !important;
+        margin: 20px auto!important
+    }
+    
+    
+}
+
+/*************small screen************/
+@media (min-width:768px) and (max-width:991px){
+    
+    .container{
+        width: 780px
+    }
+    
+    .visible-sm{
+        display: block !important
+    }
+    
+    .hidden-sm{
+        display: none !important
+    }
+    
+    .features .feature{
+        width: 49% !important;
+        margin: 0 !important
+    }
+    
+    .features .feature:first-of-type, .features .feature:nth-of-type(3){
+        margin-right: 2% !important
+    }
+    
+    .our-works .works .item{
+        width: 49%;
+        margin: 0 0 10px 0 !important
+    }
+    
+    .our-works .works .item:first-of-type,
+    .our-works .works .item:nth-of-type(3),
+    .our-works .works .item:nth-of-type(5){
+        margin-right: 2% !important
+    }
+    
+    .our-team .member{
+        width: 48% !important;
+        margin: 20px 0 !important
+    }
+    
+    .our-team .member:first-of-type,
+    .our-team .member:nth-of-type(3){
+        margin-right: 4% !important
+    }
+      
+}
+
+/************meduim screen************/
+@media (min-width:992px) and (max-width:1199px){
+    
+    .container{
+        width: 1000px
+    }
+    
+    .visible-md{
+        display: block !important
+    }
+    
+    .hidden-md{
+        display: none !important
+    }
+    
+}
+
+/************large screen*************/
+@media (min-width:1200px){
+    
+    .container{
+        width: 1200px
+    }
+    
+    .visible-lg{
+        display: block !important
+    }
+    
+    .hidden-lg{
+        display: none !important
+    }
+}
+
+/************small & xsmall screen*************/
+
+@media (max-width:991px){
+    
+    .padding{
+        padding-top: 40px;
+        padding-bottom: 40px
+    }
+    
+    .contact-us form input{
+        display: block;
+        margin: 10px auto 10px !important 
+    }
+    
+    .contact-us textarea{
+        width: 285px;
+        margin: auto 
+    }
+    
+    .contact-us form .info{
+        width: 285px !important
+    }
+    
+    .contact-us form input[type='submit']{
+        float: none !important
+    }
+    
+    .contact-us form .icons{
+        float: none !important;
+        margin: 20px auto !important
+    }
+    
+    footer span{
+        float: none !important;
+        display: block;
+        margin-bottom: 10px;
+        text-align: center
+    }
+}
